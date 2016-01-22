@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+html, body {
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+	
+.lcontainer {
+	height: 800px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.lleft {
+	float: left;
+	height: 800px;
+	width: 630px;
+	position: relative;
+}
+.lright{
+	float: right;
+	height: 800px;
+	width: 310px;
+	position: relative
+}
+.lform {
+	width: 300px;
+	position: relative;
+	height: 430px;
+	padding-top: 50px;
+	padding-left: 10px;
+	background-image: url(../images/bg-form.png);
+	font-family:"Yanone Kaffeesatz";
+	background-repeat:no-repeat;
+	
+}
+.lbutton {
+	width: 310px;
+	position: relative;
+	height: 120px;
+}
+.linput {
+	background-color: #E8E8E8;
+	height: 20px;
+	border: 1px dashed #999;
+	width:135px;
+}
+.lselect {
+	background-color: #E8E8E8;
+	height: 20px;
+	border: 1px dashed #999;
+	width:39px;
+}
+.ltextarea {
+	background-color: #E8E8E8;
+	height: 50px;
+	width:282px;
+	border: 1px dashed #999;
+}
+.ldims {
+	background-color: #E8E8E8;
+	height: 20px;
+	border: 1px dashed #999;
+	width: 25px;
+}

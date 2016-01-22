@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#div1{
+	float:left;
+	width:200px;
+	position:relative
+}
+
+#div2{
+	float:left;
+	position:relative
+	
+}
+#click{
+	position:relative;
+	
+	}
+
+#myLink {
+ position: absolute;
+}
+
+#invisible-div-2
+{
+width: 1000px;
+height: 100%;
+top: 100%;    
+ /*position: fixed;*/
+ position: relative;
+
+ background-color: none;
+}
+
+#invisible-div-3
+{
+width: 600px;
+height: 100%;
+top: 100%;    
+ /*position: fixed;*/
+ position: relative;
+
+ background-color: none;
+}
+
